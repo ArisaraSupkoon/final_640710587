@@ -9,7 +9,7 @@ class MyTextField extends StatelessWidget {
     super.key,
     required this.controller,
     this.hintText,
-    this.keyboardType = TextInputType.multiline,
+    this.keyboardType = TextInputType.multiline, required TextStyle hintTextStyle, required TextStyle hintStyle,
   });
 
   @override
